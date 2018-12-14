@@ -1,0 +1,66 @@
+---
+title: "What Role Should Algorithmic Trading Play?"
+author: "Tyson Clark"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  pdf_document:
+    citation_package: natbib
+    fig_caption: yes
+    keep_tex: yes
+    latex_engine: pdflatex
+    template: ./svm-latex-ms.tex
+  html_document:
+    df_print: paged
+biblio-style: apsr
+fontfamily: mathpazo
+fontsize: 11pt
+geometry: margin=1in
+keywords: Markets, Efficiency, Trading, Algorithmic Trading, High Frequency Trading
+bibliography: ./master.bib
+spacing: double
+abstract: Algorithmic trading has seen rapid growth in recent years. Many oppose algorithmic trading as they argue it provides an unfair advantage to those with high-speed capabilities through the use of front-running. I argue in this paper, however, that algorithmic trading increases liquidity, narrows spreads, makes markets more efficient, and is a net positive for markets.
+---
+
+
+I would like to open up my discussion of high frequency trading by referencing a paper by Buchanan. Buchanan begins by disputing a seemingly simple phrase by Jacob Viner, that 'economics is what economists do, and economists are those who do economics' @Buchanan1979. He writes about how the classic form of what an economics is has been adapted to be methods of resource allocation, but he disregards this definition, and argues that it should be defined by trade and exchange.
+
+I am referencing this since trading has all but remained classical. Trading used to occur all on the trading floor, with traders doing everything with pen and paper. We have continued to advance and now almost no trading occurs on the trading floor, but instead occurs within seconds or even milliseconds. Nowadays speed is the one of the most valuable assets when it comes to trading.
+
+High frequency traders are defined by the SEC as "professional traders acting in a proprietary capacity that engage in strategies that generate a large number of trades on a daily basis @menkveld2013high" High frequency traders actually lose money on their inventory, and simply attempt to end each trading day as flat as possible on their actual inventory. They make all of their gains by manipulating the bid-offer spread. High frequency trading is a subset of algorithmic trading, which is where traders employe computer algorithms to make trades on their behalf @zhang2010high.
+
+The trading world is now in a race to trade at the speed of light. For reference, the Hibernia Express, a fibre-optic line running from New York to London's financial centers, was built for $300 Million. After this large investment, communication speeds only increased by 2.6 milliseconds, or about 10\% @buchanan2015trading. This seems like a steep price to pay for simple milliseconds of speed, but in today's trading world, this will increase efficiency and cut costs in the long run. Many trading centers use micro-wave technology to perform trading, and the future holds many new technologies, such as neutrinos. Neutrinos travel at the speed of light, and can pass through solid objects including earth. This is all to increase trading speeds by fractions of a second.
+
+This paper goes on to discuss one of the reasons people oppose algorithmic trading. The flash crash that occurred in May 2010, which was an unexplainable system-wide failure due to unforeseen ways that different algorithms interacted, is an event that could occur again at any moment. We continue to develop new technology to become more aware of how algorithms will respond to different events, but there is always risk when new technologies are employed, and these can be very substantive.
+
+This flash crash is described in more detail by @vuorenmaa2013good. He then also continues the paper by discussing the problem of front-running. Front-running is where a corporation puts in a large purchase of securities, and a high-frequency trader uses their speed to place a trade in front of the corporation. After the corporation's trade goes through, the high-speed trader will sell the security milliseconds after, having made a profit since the security price will rise due to the large trade volume occuring. This is a problem that many see with high-speed trading, since it is an unfair advantage that technology provides.
+
+I would like to argue, however, that the liquidity provided in the market by high-frequency traders, as well as the tightened spreads, make the market much more efficient and save investors money, even if front-running is present. This same paper by Vuorenmaa goes on to talk about these same facts. It states that daily trading volumes have more than tripled since high-frequency trading has taken off.
+
+Yet another supporting paper for Algorithmic Trading talks of the proportion of trades that algorithmic traders have taken @hendershott2011does. Here, it mentions in 2009 algorithmic trading was over 73\% of the daily trading volume in the US. This volume drastically helps liquidity by allowing individual and institutional investors to sell securities much quicker, with less of a loss burdened by large spreads for less liquid securities.
+
+Later it is stated that spreads are tightened through decreased in the amount of price discovery related to trades. Simply put, prior to algorithmic trading, much of the change in prices due to news, economic factors, or other data wasn't reflected in prices until a large trade was made. With algorithmic trading, however, these events are reflected much more quickly without the need of these adverse trades. This helps investors have more faith in market efficiency and be more sure they will not lose large portions of an investment return through spreads when trading less liquid securities.
+
+In a recent paper, Hasbrouck added another positive effect algorithmic trading has on markets @hasbrouck2018high. He talked about how price discovery helps negate the possibility of quote stuffing. This is the term for when an institutional investor places a large order and cancels, and then repeats this to confuse markets and manipulate stock prices. With algorithmic trading, quotes are placed much more rapidly and it is much more difficult to stuff quotes since price discovery occurs much more efficiently.
+
+This price discovery has done wonders for the efficiency of markets. Market volatility is by nature unpredictable. The fact that high speed trading can encorporate new news, whether positive or negative, within milliseconds is amazing. This helps smooth the effect of unanticipated news since all of the price changes happen instantaneously, so there won't be as much of an investor selloff or large purchase as investors try to get ahead of the news before it reaches others. Now that the news is incorporated instantaneously through high speed trading, traders are much less likely to act rashly.
+
+High frequency trading also helps reduce market volatility. With all of the orders flying in from high speed traders across the globe, there will be a lot smaller shock should an institutional investor place a large order for a certain equity. For less trading stocks, without high frequency traders, when a large order is placed, it is likely the price shifts upward in a large fashion. High speed traders help significantly reduce this effect @zhang2010high.
+
+Volatility is bad for investors because it adds unnecessary risk. If it is possible for you to buy a stock, only to have the price drop significantly recently after for no reason other than a large sell order being placed by an investor with much more capital than you, it is a lot harder to determine if a stock is worth the purchase. Algorithms used by high frequency traders search the whole stock market, and can find these less liquid securities that may not be purchased often by investors, and will trade them automatically if there is a small margin to be made. This makes the market much more efficient as a whole.
+
+Going back to the reference of Buchanan, I believe that markets were made to be efficient. When trading occurred on scraps of paper, the inherent risks involved were much greater than they are now with the efficiency introduced by technology. This original idea of trading has changed so much. Today, most traders don't even trade, but simply program a computer to trade for them.
+
+Maybe things were meant to evolve with society, and not remain in their classical sense. Buchanan refutes the idea that economists know what economics is, but perhaps economics has evolved to not only be about trade, but also be about utility maximization, and has merged itself with mathematics. As many other industries have encorporated mathematics, maybe economics has done the same, and the classical sense Buchanan defined economics is no longer applicable.
+
+This is definitely the case with classical trading. No one is going to say an algorithmic trader isn't a trader because they don't do any trading with pen and paper. Trading has advanced with technology and is better off for it. High speed trading provides quicker price discover, higher liquidity, and overall makes the markets more efficient. There will be many more discoveries in the near future to make trading quicker, more efficient, and more technologically advanced. 
+
+
+<!--
+# References
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\vspace*{-0.2in}
+\noindent
+-->
+

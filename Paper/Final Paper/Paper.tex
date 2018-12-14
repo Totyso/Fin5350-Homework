@@ -1,0 +1,306 @@
+\documentclass[11pt,]{article}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}
+\newcommand*{\authorfont}{\fontfamily{phv}\selectfont}
+\usepackage[]{mathpazo}
+
+
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+
+
+
+\usepackage{abstract}
+\renewcommand{\abstractname}{}    % clear the title
+\renewcommand{\absnamepos}{empty} % originally center
+
+\renewenvironment{abstract}
+ {{%
+    \setlength{\leftmargin}{0mm}
+    \setlength{\rightmargin}{\leftmargin}%
+  }%
+  \relax}
+ {\endlist}
+
+\makeatletter
+\def\@maketitle{%
+  \newpage
+%  \null
+%  \vskip 2em%
+%  \begin{center}%
+  \let \footnote \thanks
+    {\fontsize{18}{20}\selectfont\raggedright  \setlength{\parindent}{0pt} \@title \par}%
+}
+%\fi
+\makeatother
+
+
+
+
+\setcounter{secnumdepth}{0}
+
+
+
+\title{What a Trader Should Do  }
+
+
+
+\author{\Large Tyson Clark\vspace{0.05in} \newline\normalsize\emph{Utah State University}  }
+
+
+\date{}
+
+\usepackage{titlesec}
+
+\titleformat*{\section}{\normalsize\bfseries}
+\titleformat*{\subsection}{\normalsize\itshape}
+\titleformat*{\subsubsection}{\normalsize\itshape}
+\titleformat*{\paragraph}{\normalsize\itshape}
+\titleformat*{\subparagraph}{\normalsize\itshape}
+
+
+\usepackage{natbib}
+\bibliographystyle{apsr}
+
+
+
+\newtheorem{hypothesis}{Hypothesis}
+\usepackage{setspace}
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{%
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+}
+\@ifpackageloaded{color}{
+    \PassOptionsToPackage{usenames,dvipsnames}{color}
+}{%
+    \usepackage[usenames,dvipsnames]{color}
+}
+\makeatother
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={Tyson Clark (Utah State University)},
+             pdfkeywords = {Markets, Efficiency, Trading, Algorithmic Trading},  
+            pdftitle={What a Trader Should Do},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+
+
+
+\begin{document}
+	
+% \pagenumbering{arabic}% resets `page` counter to 1 
+%
+% \maketitle
+
+{% \usefont{T1}{pnc}{m}{n}
+\setlength{\parindent}{0pt}
+\thispagestyle{plain}
+{\fontsize{18}{20}\selectfont\raggedright 
+\maketitle  % title \par  
+
+}
+
+{
+   \vskip 13.5pt\relax \normalsize\fontsize{11}{12} 
+\textbf{\authorfont Tyson Clark} \hskip 15pt \emph{\small Utah State University}   
+
+}
+
+}
+
+
+
+
+
+
+
+\begin{abstract}
+
+    \hbox{\vrule height .2pt width 39.14pc}
+
+    \vskip 8.5pt % \small 
+
+\noindent The stock market is a great method for any individual, group of
+individuals, or entity to participate in the growth of any particular
+company. I would like to argue that today's society has turned markets
+into a race for a quick buck, more so than ever, with algorithmic
+trading. I believe that markets would be better off if investors held
+securities for the long-term, along with some market-makers to provide
+liquidity, but high-frequency traders have changed our views on the
+markets as a whole.
+
+
+\vskip 8.5pt \noindent \emph{Keywords}: Markets, Efficiency, Trading, Algorithmic Trading \par
+
+    \hbox{\vrule height .2pt width 39.14pc}
+
+
+
+\end{abstract}
+
+
+\vskip 6.5pt
+
+\noindent \doublespacing \begin{quote}
+\end{quote}
+
+\section{Buchanan}\label{buchanan}
+
+\subsection{Buchanan}\label{buchanan-1}
+
+Buchanan begins by disputing a seemingly simple phrase by Jacob Viner,
+that `economics is what economists do, and economists are those who do
+economics' \citet{Buchanan1979}. He writes about how the classic form of
+what an economics is has been adapted to be methods of resource
+allocation, but he disregards this definition, and argues that it should
+be defined by trade and exchange.
+
+Buchanan tells of Robert Crusoe and Friday. The story goes that Crusoe
+was on an island, and uses the resources on the island, and one day
+Friday arrives. He explains that in his definition of economics would be
+such that no such thing occured until Friday arrived, because that
+opened the opportunity for exchange.
+
+Buchanan disputes that this classic view that most economists have about
+economics, can't be economics, because it can be looked at as simple
+mathematics. If you look at human choice and behavior without exchange,
+you can find the result with a simple utility maximization function.
+Though computation is necessary in economics, economics has to include
+exchange.
+
+\subsection{Catallactics}\label{catallactics}
+
+Buchanan briefly mentions catallactics, an approach to economics that
+dates back long before Buchanan, but has been absent from the minds of
+many modern economics. When talking of catallactics, he is speaking of
+free-markets, and looking at prices as they are, and not as they `should
+be'.
+
+\subsection{What do Economists do?}\label{what-do-economists-do}
+
+Buchanan writes of how many economists try to determine the economic
+problem as a problem of allocation. He mentions Lord Robbins as one such
+economist, and writes of the necessity for making allocative decisions.
+This focuses more on a problem, rather than human activity, and can be
+solved by a mathematician, and probably better so. He briefly writes of
+a classic student studying economics telling the difference between an
+economic problem and a technological problem, using an example as
+defined in textbooks. He then states that these two problems really have
+no difference, since as stated before, either can be solved with a
+utility maximization function. This shows how many economists overlook
+the catallactic views mentioned by Buchanan.
+
+\subsection{What Should Economists do?}\label{what-should-economists-do}
+
+Buchanan argues that economists should know their subject matter, if
+nothing else. He writes that they should be `market-economists'. They
+should focus on exchange, trade, and human behavior effecting these
+things. He says that they should stop and look at a road map, so that
+economics doesn't change as many languages do over time, but remains a
+study of economic behavior, and not simply a maximization function.
+
+\section{Proposal}\label{proposal}
+
+\subsection{Abstract}\label{abstract}
+
+The stock market is a great method for any individual, group of
+individuals, or entity to participate in the growth of any particular
+company. I would like to argue that today's society has turned markets
+into a race for a quick buck, more so than ever, with algorithmic
+trading. I believe that markets would be better off if investors held
+securities for the long-term, along with some market-makers to provide
+liquidity, but high-frequency traders have changed our views on the
+markets as a whole.
+
+\subsection{Introduction}\label{introduction}
+
+The stock market has been important our nation's economy since it's
+initiation in 1817. Even at initiation, people were trying to make a
+quick buck. In this essay, I will argue that people's drive to purchase
+individual stocks, and invest long-term in individual companies, is
+declining. The fault for this goes to high-speed traders. I believe this
+takes away from an important purpose of the stock market, which is to
+provide funding for companies that need cash outside of debt, and
+provide individuals or groups of individuals a chance to be an owner in
+hundreds or thousands of companies that they believe in and would like
+to see succeed long-term. This purpose has been morphed by algorithmic
+traders into a means for quick money, at the cost of investors and
+companies.
+
+\subsection{Literature Review}\label{literature-review}
+
+\subsubsection{Buchanan}\label{buchanan-2}
+
+I will use Buchanan in my paper to discuss his theory of a roadmap, and
+how economists need to look back and see that they are straying from
+their subject matter. I believe that the stock market has strayed from
+its original path, and investors are becoming more aggressive at making
+money from those with less technology and knowledge rather than
+profiting from long-term belief in strong companies.
+
+\subsubsection{Hayek}\label{hayek}
+
+I will use Hayek's paper to discuss how those with a technological
+advantage in trading that use that technology for their gain are acting
+dishonestly. \citet{Hayek1945}
+
+\subsubsection{Vuorenmaa}\label{vuorenmaa}
+
+I will use this paper to discuss the flash effect that increases
+volatility in markets not proven to be caused by, but exaggerated by
+algorithmic trading machines. I will discuss predatory trading through
+front-frunning, and how this is taking away from the desire of
+individuals and other groups to invest. \citet{vuorenmaa2013good}
+
+\subsubsection{Boettke}\label{boettke}
+
+I will use this paper to discuss the importance of investors in society
+to understand their investments in companies, and want to see growth in
+the individual company, rather than make pennies on the dollar on
+multiple trades per second without any sense of how you are helping or
+hurting the company whose stock you are trading. This essay speaks of
+societal impacts in economic research rather than simply using
+quantitative methods. I will use it to argue the societal impact of
+algorithmic trading takes the average investor's mindset out of the
+original idea of investment. \citet{boettke2013riding}
+
+\section{Outline}\label{outline}
+
+\begin{itemize}
+\item
+  Introduction
+\item
+  I will talk about the reasons I believe the stock market started, and
+  discuss the social impact that came about by allowing individuals to
+  take ownership in companies
+\item
+  I will talk about how even from the beginning we strayed from this
+  concept, and used the stock market to find arbitrage opportunities
+\item
+  I will discuss the literature I have cited, and talk about how it ties
+  into my argument that we have regressed from the original social
+  impact that the stock market had on our economy
+\item
+  I will discuss today's new technology, and how arbitragers and
+  high-frequency traders are causing distrust in the stock market as a
+  whole for those without technology, and how it is doing more harm than
+  good
+\item
+  Conclusion
+\end{itemize}
+
+\newpage
+\singlespacing 
+\bibliography{./master.bib}
+
+\end{document}
